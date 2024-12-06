@@ -14,28 +14,29 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        HID modernization app was design from scratch. Keeping end user in mind.
+        Application is fast and easy to use and provides information needed instantly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Easy Sign on',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        HID app uses your current microsoft login credentials.
+        No more need to remember another login id and password. Simply use your MS credentials to login,
+        If you do not have access to app, HID app will log your request to admin for approval.
+        Once approved, you will access to the app. No need to call support or change code.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by Ocean Deep Technlogies',
+    Svg: require('@site/static/img/odtlogo-small.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Ocean Deep Technologies commits to excellence and quality product development.
       </>
     ),
   },

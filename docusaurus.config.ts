@@ -7,10 +7,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Human ID',
   tagline: 'HID',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/VWMLogo.ico',
 
   // Set the production url of your site here
-  url: 'https://valleymedlabs.github.io/HID/',
+  url: 'https://valleymedlabs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -68,21 +68,21 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'HiD app',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'HiD app Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Guide',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Valleymedlabs/HID',
+          href: 'https://www.hid-webtest.valleymedlabs.com',
           label: 'HID',
           position: 'right',
         },
@@ -95,7 +95,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Guide',
               to: '/docs/intro',
             },
           ],
@@ -125,8 +125,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'HID',
-              href: 'https://github.com/Valleymedlabs/HID',
+              label: 'HiD(Test)',
+              href: 'https://www.hid-webtest.valleymedlabs.com',
             },
           ],
         },
