@@ -12,8 +12,12 @@ This diagram shows how data flows from GeXP machine to HiD web application.
 - Data ingestion program, does followings:
     - parse the data in [General] [FragmentList] [Analysis Parameters] [Lucas Tag] [Method] and [Consumables] section
     - if there is no **General** section, ingestion of that data file stops with error "Invalid data file".
+    - find the peaks in fragment list
+    - save data in respective tables
     - assign patient id, name and dob, if sample and patient id is found in VPR database, patient id is assigned to sample
-    - if sample and patient id is assigned, batch program will find and assign (validated) reference to the sample.
-    - if reference is assigned to sample, program does the score calculation using pre-defined matchin logic.
-    - if sample is a reference sample, program does the validation check to ensure reference has a valid fragment list data.
-    - program sends notification regarding data import
+    - if data file is sample
+        - if patient id is found, find and assign validated reference
+        - if reference is assigned, calculate matching score using pre-defined matching logic.
+    - if data file is a reference sample
+        - Do the fragment list validation check.
+    - Send notification regarding data import
