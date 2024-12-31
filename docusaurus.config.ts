@@ -19,7 +19,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Valley Med Labs', // Usually your GitHub org/user name.
   projectName: 'HID', // Usually your repo name.
-
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -95,8 +95,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Guide',
-              to: '/docs/HumanID',
+              label: 'User Guide',
+              to: '/docs/Human ID',
             },
           ],
         },
@@ -120,10 +120,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'HiD(Test)',
               href: 'https://hid-webtest.valleymedlabs.com/login',

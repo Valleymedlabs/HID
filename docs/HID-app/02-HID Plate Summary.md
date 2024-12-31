@@ -15,4 +15,4 @@ Displays Sample summary by HID Plate, Operator along with number of samples. Pag
 | **Not Matched** | Count of samples, where scoring calculation is done and the result is less than 70%.|
 | **other** | Count of samples, where scoring is not yet done due missing patient id or reference is not linked.|  
   
-To see all the [samples for the HID Plate](/docs/HID-app/02-Samples%20-%20HID%20Plate.md), click on the HID Plate link. 
+To see all the [samples for the HID Plate](/docs/HID-app/03-Samples%20-%20HID%20Plate.md), click on the HID Plate link. 
