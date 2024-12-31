@@ -11,28 +11,28 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/simple2use.svg').default,
     description: (
       <>
         HID modernization app was design from scratch. Keeping end user in mind.
-        Application is fast and easy to use and provides information needed instantly.
+        Application is fast, responsive and easy to use and provides information needed instantly.
       </>
     ),
   },
   {
     title: 'Easy Sign on',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/easysignin.svg').default,
     description: (
       <>
         HID app uses your current microsoft login credentials.
-        No more need to remember another login id and password. Simply use your MS credentials to login,
+        No more need to remember another login id and password. Simply use your MS credentials and start using the app.
         If you do not have access to app, HID app will log your request to admin for approval.
-        Once approved, you will access to the app. No need to call support or change code.
+        Once approved, you will have access to the app. No need to call support.
       </>
     ),
   },
   {
-    title: 'Powered by Ocean Deep Technlogies',
+    title: 'Powered by Ocean Deep Technologies',
     Svg: require('@site/static/img/odtlogo-small.svg').default,
     description: (
       <>

@@ -3,32 +3,48 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ @font-face {
+  font-family: "RobotoFlex";
+  src: url("/static/fonts/RobotoFlex-Regular.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/static/fonts/RobotoFlex-VariableFont.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #f7b346;
-  --ifm-color-primary-dark: #fcb239;
-  --ifm-color-primary-darker: #f9a319;
-  --ifm-color-primary-darkest: #f49702;
-  --ifm-color-primary-light: #f9bb59;
-  --ifm-color-primary-lighter: #f7c371;
-  --ifm-color-primary-lightest: #f7cd8a;
-  --ifm-code-font-size: 95%;
-  --ifm-color-text: #b503fc; 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary:  hsl(211, 60%, 45%); 
+  --ifm-color-primary-dark:  hsl(211, 70%, 35%); 
+  --ifm-color-primary-darker: hsl(211, 60%, 30%); 
+  --ifm-color-primary-darkest: hsl(211, 50%, 25%); 
+  --ifm-color-primary-light: hsl(211 85% 65%); 
+  --ifm-color-primary-lighter: hsl(211 75% 70%);
+  --ifm-color-primary-lightest: hsl(211 75% 80%);
+  --ifm-code-font-size: 90%;
+  --ifm-color-text: hsl(0, 0%, 100%); 
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #f7b346;
-  --ifm-color-primary-dark: #fcb239;
-  --ifm-color-primary-darker: #f9a319;
-  --ifm-color-primary-darkest: #f49702;
-  --ifm-color-primary-light: #f9bb59;
-  --ifm-color-primary-lighter: #f7c371;
-  --ifm-color-primary-lightest: #f7cd8a;
-  --ifm-color-text: #6e1b8e; 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary:  hsl(211, 80%, 45%); 
+  --ifm-color-primary-dark:  hsl(211, 70%, 35%); 
+  --ifm-color-primary-darker: hsl(211, 60%, 30%); 
+  --ifm-color-primary-darkest: hsl(211, 50%, 25%); 
+  --ifm-color-primary-light: hsl(211 85% 65%); 
+  --ifm-color-primary-lighter: hsl(211 75% 70%);
+  --ifm-color-primary-lightest: hsl(211 75% 80%);
+  --ifm-color-text: #ffffff; 
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 1);
 }
 
 
@@ -38,4 +54,9 @@ h {
 
 .hero__title {
   color: var(--ifm-color-text);
+}
+
+.red-color{
+  color: "red";
+  background: "#0f0";
 }

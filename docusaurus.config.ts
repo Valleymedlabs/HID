@@ -39,24 +39,24 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Valleymedlabs/HID/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/Valleymedlabs/HID/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Valleymedlabs/HID/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/Valleymedlabs/HID/main/packages/create-docusaurus/templates/shared/',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,21 +68,21 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'HiD app',
+      title: 'HID app',
       logo: {
-        alt: 'HiD app Logo',
+        alt: 'HID app Logo',
         src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'HIDSidebar',
           position: 'left',
-          label: 'Guide',
+          label: 'User Guide',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.hid-webtest.valleymedlabs.com',
+          href: 'https://hid-webtest.valleymedlabs.com/login',
           label: 'HID',
           position: 'right',
         },
@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: 'Guide',
-              to: '/docs/intro',
+              to: '/docs/HumanID',
             },
           ],
         },
@@ -126,7 +126,7 @@ const config: Config = {
             },
             {
               label: 'HiD(Test)',
-              href: 'https://www.hid-webtest.valleymedlabs.com',
+              href: 'https://hid-webtest.valleymedlabs.com/login',
             },
           ],
         },
