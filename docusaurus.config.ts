@@ -95,8 +95,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Guide',
-              to: '/docs/HumanID',
+              label: 'User Guide',
+              to: '/docs/Human ID',
             },
           ],
         },
@@ -120,10 +120,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'HiD(Test)',
               href: 'https://hid-webtest.valleymedlabs.com/login',
