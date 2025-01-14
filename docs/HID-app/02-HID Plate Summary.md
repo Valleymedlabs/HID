@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Displays Sample summary by HID Plate, Operator along with number of samples. Page also displays **Matched**, **Not Matched** and **Other** Counts

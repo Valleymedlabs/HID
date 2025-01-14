@@ -1,15 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
-Displays Sample for the selected HID Plate  
-Data is sorted by descending order of **Modified date** of the sample. Date shown is the date of most recent Sample's modified date.  
+Displays Sample data in descending order of **Modified date**. Date shown is the date of most recent Sample's modified date.  
 
-![samples](../../static/img/hidplatesamples.jpg)
+![samples](../../static/img/samples.jpg)
 
 
-##### Top Bar Shows
-HID Plate name, Modified date of the most recent sample and number of samples in this HID plate.
 
 |Column | Description |
 |:----- |:------------------------------------------------------------------------------|

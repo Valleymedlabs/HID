@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 91
 ---
 
 GeXP data elements. Data from GeXP comes in "General", "Analysis Parameters", "Locustag", "Method", "Consumables" and "Fragment List" sections.  
