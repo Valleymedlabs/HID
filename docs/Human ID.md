@@ -7,6 +7,6 @@ Application gets the data from GeXP machine as text file. Data gets parsed and s
 
 #### Getting Started
 
-Get started by **[Login](https://hid-webtest.valleymedlabs.com/login), using your microsoft credentials**.
+Get started by **[Login](https://hid.valleymedlabs.com/login), using your microsoft credentials**.
 
 ##### If you do not have access to application, HID app will request on your behalf. You will get access as soon as admin approves your request.

@@ -86,7 +86,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://hid-webtest.valleymedlabs.com/login',
+          href: 'https://hid.valleymedlabs.com/login',
           label: 'HID',
           position: 'right',
         },
@@ -104,23 +104,23 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'X',
+        //       href: 'https://x.com/docusaurus',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
@@ -129,8 +129,8 @@ const config: Config = {
             //   to: '/blog',
             // },
             {
-              label: 'HiD(Test)',
-              href: 'https://hid-webtest.valleymedlabs.com/login',
+              label: 'HiD',
+              href: 'https://hid.valleymedlabs.com/login',
             },
           ],
         },
