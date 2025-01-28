@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 HID application uses scoring alogrithm to score the matching of sample to reference.  

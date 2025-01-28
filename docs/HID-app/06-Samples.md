@@ -14,7 +14,7 @@ Displays Sample data in descending order of **Modified date**. Date shown is the
 | Sample | Sample number, click sample number link to view sample raw data |
 | Reference | Reference name, sample is linked to. Once reference is linked, scoring can be done. | 
 |     | If this column is blank, it indicates app has not located the reference based on the Patient ID.  |
-|Kind | 'SMP' - Sample, 'REF' - Reference   
+|Kind |  'POS' - Positive Control, 'NTC' - Negative Control |
 |Patient ID | Shows patient ID. Patient ID helps linking correct reference to Sample |
 |Patient Name | Patient Name  |
 |HID Plate | Shows on which HID Plate this sample was processed |
