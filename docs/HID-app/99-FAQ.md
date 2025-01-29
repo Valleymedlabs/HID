@@ -36,10 +36,10 @@ Once reference is assigned to sample, you cannot unassign it.
 <summary>**There is a patient whose swab was reported, it's not showing up in the app**</summary>
 
 Most likely the data didn't come to HID app. You can verify by going to **Import Log** option and search for the reference number. If the reference number didn't show-up, the data never made it to HID app. In this scenario you can  
-1. manually import the data
-2. Manually assign it to Sample, if data is older than 7 days
+1. manually import the data  
+2. Manually assign it to Sample, if data is older than 7 days  
 
-you can also check by logging in to SQL1 server and then go to
-1. /Users/Public/Automation_File_Backup folder and 
-2. search for the file using reference number.
+you can also check by logging in to SQL1 server and then go to  
+1. /Users/Public/Automation_File_Backup folder and  
+2. search for the file using reference number.  
 </details>
