@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-##### Fragment list validation has 4 criteria  
+##### Fragment list validation has a 4 criteria  
 
 
 1: Avearage height of relevant peak must be greater than 5000 rfu  
