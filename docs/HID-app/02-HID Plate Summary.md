@@ -10,6 +10,7 @@ Displays Sample summary by HID Plate, Operator along with number of samples. Pag
 | :------ | :-----------------------------------------------------------------------------------------------|
 | **Plate Number** | Plate name, data comes from the GeXP data feed.|
 | **Operator**  | Operator Initial, data comes from the GeXP data feed.|
+| **Controls** | Shows number of control files within HID Plate. |
 | **No. of Samples** | Total number of samples within HID Plate.|
 | **Matched** | Count of samples, where scoring calculation is done and the result is greater than 70%.|
 | **Not Matched** | Count of samples, where scoring calculation is done and the result is less than 70%.|

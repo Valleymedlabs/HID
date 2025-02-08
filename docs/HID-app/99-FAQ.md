@@ -43,3 +43,15 @@ you can also check by logging in to SQL1 server and then go to
 1. /Users/Public/Automation_File_Backup folder and  
 2. search for the file using reference number.  
 </details>
+
+<details>
+<summary>**Reference with bad data got assigned to Sample. How do I reassign new reference to sample?**</summary>
+
+In order to reassign new reference to the sample, do following.  
+1. Select "Reference" from the left navigation bar and search the reference with bad data.
+2. Once located, click "Invalidate" under Actions and invalidate the reference. This will unlink this reference from all the Samples and reset the score and status.
+
+Now go back to Sample and search the sample then, 
+1. Click "Add Reference", find and select the reference.
+ 
+</details>
