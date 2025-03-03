@@ -7,8 +7,6 @@ sidebar_position: 12
 #### Requirement
 Application identifies all the relevant peaks from the fragment list and run following rules on relevant peaks items.  
 If the sample/reference has no relevant peaks, fragment list validation is skipped.  
-  
-    
 #### Rules
 1: Avearage height of relevant peak must be greater than 5000 rfu  
 2: There has to be minimum of 10 unique Allele in Fragment list  
@@ -16,6 +14,7 @@ If the sample/reference has no relevant peaks, fragment list validation is skipp
 4: less than 4 Allel is allowed with height less than 1000 rfu  
 
 #### Example
+Relevant Peak Data
 | Locus | Height | Height > 5000 | Height < 1000 |
 | :----- | --------: | :------------: | :-----: |
 | AMELOGENIN | 17327 | Yes | No |
@@ -37,8 +36,7 @@ If the sample/reference has no relevant peaks, fragment list validation is skipp
 | TH01 | 12364 | Yes | No |
 | TPOX | 25285 | Yes | No |
 | TPOX | 21658 | Yes | No |
-
-  
+<br></br>
 #### Data points  
 | Data | Value |
 |:-------| ------: |
@@ -48,11 +46,8 @@ If the sample/reference has no relevant peaks, fragment list validation is skipp
 | % Of Allele with height > 5000 | 53% |
 | Average Height of Allele | 10404 |
 | No Of Allele having height < 1000 | 2 |
-  
-  
-   
-
-#### Decision
+<br></br>
+#### Status
 | Validation Rule | Status |
 | :---------------- | :---------- |
 | 1: Avearage height of relevant peak must be greater than 5000 | Passed |
