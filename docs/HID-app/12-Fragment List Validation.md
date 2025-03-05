@@ -10,8 +10,8 @@ If the sample/reference has no relevant peaks, fragment list validation is skipp
 #### Rules
 1: Avearage height of relevant peak must be greater than 5000 rfu  
 2: There has to be minimum of 10 unique loci in Fragment list  
-3: 50% of Allele must have height greater than 5000 rfu  
-4: less than 4 Allele is allowed with height less than 1000 rfu  
+3: 50% of allele must have height greater than 5000 rfu  
+4: less than 4 allele is allowed with height less than 1000 rfu  
 
 #### Example
 Relevant Peak Data
@@ -52,6 +52,6 @@ Relevant Peak Data
 | :---------------- | :---------- |
 | 1: Avearage height of relevant peak must be greater than 5000 | Passed |
 | 2. There has to be minimum of 10 unique Allele in Fragment list | Passed |
-| 3. 50% of Allele must have height greater than 5000 | Failed |
-| 4. less than 4 Allele is allowed wih height less than 1000 | Passed |
+| 3. 50% of allele must have height greater than 5000 | Failed |
+| 4. Less than 4 allele is allowed with height less than 1000 | Passed |
 | OVERALL OUTCOME | **FAILED** |
