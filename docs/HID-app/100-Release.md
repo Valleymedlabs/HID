@@ -1,8 +1,8 @@
 ---
 sidebar_position: 100
 ---
-<summary>**Release Notes 2025-05-04**</summary>
 <details>
+<summary>**Release Notes 2025-05-04**</summary>
  ##### branch: v1.01, commit: 440016cab92fb0dab0849a9910b07471083a04d2 (HID-api)
  ##### branch: v1.01, commit: 06aebbe1e4d016f476e9ab28d53477259b6234cf (HID-web)
 - Enhanced HID Plate sample page to show reference validation error indicator
