@@ -12,6 +12,7 @@ Displays Sample data in descending order of **Modified date**. Date shown is the
 |:----- |:------------------------------------------------------------------------------|
 |   | Shows warning if the sample failed Fragment List Validation check |
 | Sample | Sample number, click sample number link to view sample raw data |
+|   | Shows warning if the reference failed Fragment List Validation check |
 | Reference | Reference name, sample is linked to. Once reference is linked, scoring can be done. | 
 |     | If this column is blank, it indicates app has not located the reference based on the Patient ID.  |
 |Kind |  'POS' - Positive Control, 'NTC' - Negative Control |

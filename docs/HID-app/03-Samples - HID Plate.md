@@ -15,6 +15,7 @@ HID Plate name, Modified date of the most recent sample and number of samples in
 |:----- |:------------------------------------------------------------------------------|
 |   | Shows warning if the sample failed Fragment List Validation check |
 | Sample | Sample number, click sample number link to view sample raw data |
+|   | Shows warning if the reference failed Fragment List Validation check |
 | Reference | Reference name, sample is linked to. Once reference is linked, scoring can be done. | 
 |     | If this column is blank, it indicates app has not located the reference based on the Patient ID.  |
 |Kind | 'SMP' - Sample, 'REF' - Reference, 'POS' - Positive Control, 'NTC' - Negative Control |
