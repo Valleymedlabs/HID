@@ -8,7 +8,7 @@ sidebar_position: 100
 - Enhanced HID Plate sample page to show reference validation error indicator
 - Enhanced sample page to show reference validation error indicator
 - Update VPR import data schedule to run at 6:45am daily.
-- Updated local code to get data from HID new database
+- Update local code to get data from HID new database
 </details>
 <details>
 <summary>**Release Notes 2025-03-04**</summary>
