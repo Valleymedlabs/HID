@@ -55,3 +55,21 @@ Now go back to Sample and search the sample then,
 1. Click "Add Reference", find and select the reference.
  
 </details>
+
+<details>
+<summary>**0 VPR data imported. (No or missing VPR Data**</summary>
+
+Most likely the VPR data didn't come to HID app. 
+
+Verify the VPR data came from Lablynx to Valley Medical Lab server SQL1
+Login to SQL1 server
+1. Check log file in C:\Users\Public\Scripts\Logs\RestoreVPRdblog_YYYMMDD_hhmmss
+2. You should see the text "RESTORE DATABASE successfully processed nnnnn pages in nnnnn secords
+3. If you do not see above text, start the task scheduler and manually run the job **Update_vpr_prd_database**
+4. After successful completion of **Update_vpr_prd_database** the vpr data will be imported in automatically by the next VPR data import job
+
+Alternatively, you can manually kick-off the VPR data import job by
+1. goto site 'https://hid-api.valleymedlabs.com/docs'
+2. scroll down to **JOB SCHEDULER**
+3. Click 'Try out now' for Run update Patient-Sample end-point url.
+</details>

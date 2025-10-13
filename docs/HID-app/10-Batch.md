@@ -11,10 +11,11 @@ timeline
     510am : Data Import : Update Sample
     515am : *VPR database backup restore (ValleyMed)
           : *VPR database, patient sample data transfer : Update Sample
-    645am : *VPR data import
+    645am : **VPR data import
     545am : HID-data-transfer
     610am : Data Import : Update Sample
     645am : HID-data-transfer
     710am : Data Import : Update Sample
 ```
 ###### * - Once a day
+###### * - Job will reschedule to run every 30 minutes until it has process the VPR databse
