@@ -57,7 +57,7 @@ Now go back to Sample and search the sample then,
 </details>
 
 <details>
-<summary>**0 VPR data imported. (No or missing VPR Data**</summary>
+<summary>**0 VPR data imported. (No or missing VPR Data)**</summary>
 
 Most likely the VPR data didn't come to HID app. 
 
@@ -69,7 +69,7 @@ Login to SQL1 server
 4. After successful completion of **Update_vpr_prd_database** the vpr data will be imported in automatically by the next VPR data import job
 
 Alternatively, you can manually kick-off the VPR data import job by
-1. goto site 'https://hid-api.valleymedlabs.com/docs'
+1. go to site 'https://hid-api.valleymedlabs.com/docs'
 2. scroll down to **JOB SCHEDULER**
-3. Click 'Try out now' for Run update Patient-Sample end-point url.
+3. Click 'Try out now' for **Run Update Patient-Sample** end-point url.
 </details>

@@ -4,7 +4,8 @@ sidebar_position: 100
 <details>
 <summary>**Release Notes 2025-10-12**</summary>
  ##### branch: v1.02, commit: 89562bbf52ed99291a0e872db1572dbf7d88018a (HID-api)
-- Update VPR import data schedule to run at 6:45am and 30 minutes thereafter if the VPR data failed.
+- Update VPR import data schedule to start at 6:45am and 30 minutes thereafter if the VPR data import failed.  
+##### Job will last attempt to import VPR data around 11:45pm for that day.
 </details>
 <details>
 <summary>**Release Notes 2025-05-04**</summary>
